@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
     <header>
         <img src="./banka.svg" alt="">
+        <i class="fa-solid fa-bars"></i>
         <nav>
             <h3>БАНК</h3>
             <h3>БИЗНЕС</h3>
@@ -22,6 +24,15 @@
         </nav>
         <button>ВОЙТИ</button>
     </header>
+    <div class="menu">
+            <h4>БАНК</h4>
+            <h4>БИЗНЕС</h4>
+            <h4>ИНВЕСТИЦИИ</h4>
+            <h4>СТРАХОВАНИЕ</h4>
+            <h4>МОБАЙЛ</h4>
+            <h4>ПУТЕШЕСТВИЯ</h4>
+            <h4>РАЗВЛЕЧЕНИЯ</h4>
+    </div>
     <main>
         <h1>Конвертер валют онлайн</h1>
         <div class="main2">
@@ -42,7 +53,7 @@
                         <input type="text" id="input1">
                     </div>
                     <div>
-                    <p class="p1">1 RUB = 0.0135 USD</p>
+                        <p class="p1">1 RUB = 0.01228 USD</p>
                     </div>
                 </div>
             </div>
@@ -63,12 +74,13 @@
                         <input type="text" id="input2">
                     </div>
                     <div>
-                    <p class="p2">1 USD = 73.8896 RUB</p>
+                        <p class="p2">1 USD = 81.4472 RUB</p>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+    <div id="error" class="errormassage"></div>
     <script src="./index.js"></script>
 </body>
 
